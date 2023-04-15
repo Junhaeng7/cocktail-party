@@ -168,7 +168,7 @@ const Spectrogramview = ({ link, filename, zoom }) => {
     wavesurfer.current = WaveSurfer.create(options);
 
     //Will load open source poetry as default...
-    wavesurfer.current.load("/file_example_MP3_700KB.mp3");
+    wavesurfer.current.load("/test.mp3");
 
     wavesurfer.current.on("ready", function () {
       if (wavesurfer.current) {
@@ -208,7 +208,14 @@ const Spectrogramview = ({ link, filename, zoom }) => {
   };
 
   const handlePlay = () => {
-    wavesurfer.current.play();
+    if (playing){
+      wavesurfer.current.pause();
+    } else {
+      wavesurfer.current.play();
+    }
+    setPlay(!playing);
+
+    // wavesurfer.current.play();
   };
 
   const handlePause = () => {
@@ -383,20 +390,12 @@ const Spectrogramview = ({ link, filename, zoom }) => {
                 aria-label="outlined primary button group"
               >
                 <MuiButton
-                  aria-label="play"
+                  aria-label={playing ? 'pause' : 'play'}
                   size="large"
                   color="primary"
                   onClick={handlePlay}
                 >
                   <PlayArrowIcon />
-                </MuiButton>
-                <MuiButton
-                  aria-label="pause"
-                  size="large"
-                  color="secondary"
-                  onClick={handlePause}
-                >
-                  <PauseIcon />
                 </MuiButton>
               </ButtonGroup>
             </Grid>
