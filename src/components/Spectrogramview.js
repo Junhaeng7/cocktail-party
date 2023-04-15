@@ -168,7 +168,7 @@ const Spectrogramview = ({ link, filename, zoom }) => {
     wavesurfer.current = WaveSurfer.create(options);
 
     //Will load open source poetry as default...
-    wavesurfer.current.load("/file_example_MP3_700KB.mp3");
+    wavesurfer.current.load("/Chickens-clucking.mp3");
 
     wavesurfer.current.on("ready", function () {
       if (wavesurfer.current) {
