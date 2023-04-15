@@ -1,0 +1,28 @@
+.HomeIconsContainer {
+  float: left;
+   height: 25%;
+   width: 25%;
+   margin: 1%;
+ }
+
+.HomeIconButtons {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-color: black;
+  flex-direction: column;
+}
+.tileName {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  color: white;
+}
+.icon {
+  width: 80%;
+  height: 80%;
+
+  color: orange;
+}

@@ -1,0 +1,19 @@
+.main {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.Sidebar {
+  min-width: 20%;
+}
+
+.Page {
+  background-color: #c51162;
+}
+
+.block {
+   flex: 1;
+   /* min-height: 100vh; */
+   max-height: 100vh;
+   max-width: 100vw;
+ }

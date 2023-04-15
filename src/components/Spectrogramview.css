@@ -1,0 +1,207 @@
+
+body {
+    background-color: #282c34;
+    padding: 5%;
+}
+.container {
+  max-width: 75% !important;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid slategrey;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.spectrogram {
+  background-color: #9197a3;
+  margin:auto;
+  width: 85%;
+  border-radius: 25px;
+  padding: 2%;
+}
+.upperControls{
+  width:auto;
+  margin:auto;
+  padding: 2%;
+}
+.lowerControls {
+  padding: 2%;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.controls{
+  width:inherit;
+  /* padding: 2%; */
+}
+
+.ExportBtn{
+  position:relative;
+  right:0;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+
+#save-delete {
+  margin-left:33%;
+  margin-right:33%;
+}
+
+#waveform {
+  position:relative;
+}
+.audio_visual {
+  overflow: visible;
+  position: relative;
+  height : 256px;
+}
+
+.audio_visual wave {
+  /* height: 276px !important; */
+  /* position: absolute; */
+  /* overflow: visible; */
+}
+
+.wavesurfer-handle {
+  height : 500px !important;
+  overflow : visible !important;
+  background-color: rgb(255, 47, 47) !important;
+
+}
+
+.audio_visual > wave {
+  cursor: crosshair;
+}
+
+.audio_visual > wave > canvas {
+  background-color: #000;
+  /* width: 0px; */
+  visibility: hidden !important;
+  /* opacity: ; */
+  z-index: 1 !important;
+}
+
+.audio_visual wave canvas {
+  /* position: absolute; */
+  top: 10px !important;
+  visibility: hidden !important;
+}
+
+.audio_visual > wave{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.audio_visual > spectrogram {
+  overflow-y: visible !important;
+  position: relative;
+  top: -90%;
+  pointer-events: none !important;
+  /* flex-shrink: 3; */
+  /* width: inherit !important; */
+
+}
+ .audio_visual > spectrogram > canvas{
+  position:  relative !important;
+  display: flex  !important;
+  /* top: -100px; */
+  /* height: 50%; */
+  /* width:auto !important;  */
+  /* fill: #000 !important; */
+  z-index: 0 !important;
+  pointer-events: none !important;
+  /* flex-shrink: .5 !important; */
+}
+
+.controls {
+  display: inline !important;
+}
+
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}

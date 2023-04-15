@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="164.18394mm"
+   height="16.933332mm"
+   viewBox="0 0 164.18395 16.933333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="LabelMe_Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title67664">LableMe Audio Logo</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#cd4a4a"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.6261553"
+     inkscape:cx="562.36941"
+     inkscape:cy="35.66695"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid54769"
+       originx="-17.917254"
+       originy="-103.86292" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient87521">
+      <stop
+         style="stop-color:#066295;stop-opacity:1;"
+         offset="0"
+         id="stop87517" />
+      <stop
+         style="stop-color:#066295;stop-opacity:0;"
+         offset="1"
+         id="stop87519" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient45701"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop45699" />
+    </linearGradient>
+    <rect
+       x="61.436813"
+       y="384.83469"
+       width="722.04596"
+       height="88.73642"
+       id="rect4361" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient45701"
+       id="linearGradient45703"
+       x1="67.71875"
+       y1="417.59961"
+       x2="527.4375"
+       y2="417.59961"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient87521"
+       id="linearGradient87523"
+       x1="67.217964"
+       y1="417.59961"
+       x2="527.93829"
+       y2="417.59961"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.917252,-103.86291)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4359"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4361);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="61.4375"
+         y="441.45898"
+         id="tspan1746">Label | Me | Audio</tspan></text>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path143"
+       sodipodi:type="arc"
+       sodipodi:cx="166.71988"
+       sodipodi:cy="112.39184"
+       sodipodi:rx="4.5880914"
+       sodipodi:ry="4.5880914"
+       sodipodi:start="5.0723796"
+       sodipodi:end="1.1612988"
+       sodipodi:arc-type="arc"
+       d="m 168.33611,108.09784 a 4.5880914,4.5880914 0 0 1 2.97045,4.18044 4.5880914,4.5880914 0 0 1 -2.75994,4.32231"
+       sodipodi:open="true" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path143-3"
+       sodipodi:type="arc"
+       sodipodi:cx="170.00761"
+       sodipodi:cy="112.26196"
+       sodipodi:rx="6.3671803"
+       sodipodi:ry="6.3671803"
+       sodipodi:start="5.0723796"
+       sodipodi:end="1.1612988"
+       sodipodi:arc-type="arc"
+       sodipodi:open="true"
+       d="m 172.25055,106.30292 a 6.3671803,6.3671803 0 0 1 4.12229,5.80145 6.3671803,6.3671803 0 0 1 -3.83014,5.99834" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path143-3-6"
+       sodipodi:type="arc"
+       sodipodi:cx="173.49118"
+       sodipodi:cy="112.17103"
+       sodipodi:rx="8.1100054"
+       sodipodi:ry="8.1100054"
+       sodipodi:start="5.0723796"
+       sodipodi:end="1.1612988"
+       sodipodi:arc-type="arc"
+       sodipodi:open="true"
+       d="m 176.34806,104.58087 a 8.1100054,8.1100054 0 0 1 5.25064,7.38943 8.1100054,8.1100054 0 0 1 -4.87853,7.64021" />
+  </g>
+  <metadata
+     id="metadata67648">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Steve Hirvela</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:title>LableMe Audio Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

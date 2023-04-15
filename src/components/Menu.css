@@ -1,0 +1,9 @@
+.MuiFab-root {
+    right:0 !important;
+    justify-content: right;
+
+}
+.MuiTypography-root {
+    color: "black" !important;
+    text-decoration: none;
+}
