@@ -69,7 +69,7 @@ const formWaveSurferOptions = (ref, minPx) => ({
   barWidth: 1,
   cursorWidth: 5,
   responsive: true,
-  height: 256,
+  height: 240,
   scrollParent: true,
   fillParent: false,
   minPxPerSec: minPx,
