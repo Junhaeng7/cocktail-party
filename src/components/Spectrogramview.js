@@ -121,6 +121,7 @@ const Spectrogramview = ({ link, filename, zoom }) => {
   const [currZoom, setZoom] = useState(zoom);
   const [allRegions, setRegions] = useState([]);
   const [showForm, setShowForm] = useState(false);
+  const [playbackRate, setPlaybackRate] = useState(1);
 
   let location = useLocation();
 
@@ -145,6 +146,11 @@ const Spectrogramview = ({ link, filename, zoom }) => {
     name: "zoom-radio-button",
     inputProps: { "aria-label": item },
   });
+
+  const handlePlaybackRateChange = (event) => {
+    setPlaybackRate(parseFloat(event.target.value));
+    wavesurfer.current.setPlaybackRate(event.target.value);
+  };
 
   // function testDynamo() {
   //   let dyn = new DynamoAccess();
@@ -447,6 +453,19 @@ const Spectrogramview = ({ link, filename, zoom }) => {
                 sx={{ width: 100 }}
               />
               <VolumeUp />
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <label>Playback Rate: x{playbackRate} </label>
+              <input
+                type="range"
+                min="0.5"
+                max="2"
+                step="0.5"
+                value={playbackRate}
+                onChange={handlePlaybackRateChange}
+              />
             </Box>
           </Grid>
         </Grid>
