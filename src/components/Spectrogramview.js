@@ -374,6 +374,7 @@ const Spectrogramview = ({ link, filename, zoom }) => {
       <div className="fileName">
         <p>Current File: {filename}</p>
       </div>
+      <div>Click and drag on the spectrogram to select a region to edit. Then click a resolution below to open the label menu.</div>
       <div className="upperControls">
         <ThemeProvider theme={theme}>
           <Grid
