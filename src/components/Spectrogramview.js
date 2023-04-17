@@ -450,6 +450,7 @@ const Spectrogramview = ({ link, filename, zoom }) => {
                 step={0.025}
                 defaultValue={volume}
                 onChange={onVolumeChange}
+                valueLabelDisplay="auto" // add valueLabelDisplay prop
                 sx={{ width: 100 }}
               />
               <VolumeUp />
