@@ -439,20 +439,19 @@ const Spectrogramview = ({ link, filename, zoom }) => {
                 </MuiButton>
             </Grid>
           {isDictionaryOpen && (
-            <div
-              style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '300px',
-              height: '300px',
-              backgroundColor: 'white',
-              border: '1px solid black',
-              zIndex: 9999,
-          }}
-        >
-            <button onClick={handleCloseDictionary}>Close Dictionary</button>
-            <p>This is the Dictionary pop-up window</p>
+            <div className="dictionary-popup"
+                style={{ display: isDictionaryOpen ? 'block' : 'none' }}>
+            <MuiButton
+              color="secondary"
+              variant="contained"
+              size="large"
+              onClick={handleCloseDictionary}
+            >
+              Close Dictionary
+            </MuiButton>
+            <p style={{ color: '#333', fontSize: '16px' }}>
+              This is the Dictionary pop-up window
+            </p>
           </div>
           )}
           </Grid>
