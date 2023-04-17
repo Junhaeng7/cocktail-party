@@ -198,8 +198,25 @@ body {
 
 .controls {
   display: inline !important;
+
 }
 
+.dictionary-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: #9197a3;
+  border: 1px solid black;
+  z-index: 9999;
+  border-radius: 10px;
+}
+
+.dictionary-popup.dragging {
+  opacity: 0.5; /* optionally make the element slightly transparent while being dragged */
+}
 
 footer {
   margin-top: 30px;
