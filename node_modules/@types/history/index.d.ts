@@ -12,8 +12,10 @@ export interface History<HistoryLocationState = LocationState> {
     length: number;
     action: Action;
     location: Location<HistoryLocationState>;
-    push(location: Path | LocationDescriptor<HistoryLocationState>, state?: HistoryLocationState): void;
-    replace(location: Path | LocationDescriptor<HistoryLocationState>, state?: HistoryLocationState): void;
+    push(path: Path, state?: HistoryLocationState): void;
+    push(location: LocationDescriptor<HistoryLocationState>): void;
+    replace(path: Path, state?: HistoryLocationState): void;
+    replace(location: LocationDescriptor<HistoryLocationState>): void;
     go(n: number): void;
     goBack(): void;
     goForward(): void;

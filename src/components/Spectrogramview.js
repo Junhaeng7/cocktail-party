@@ -32,6 +32,7 @@ import PauseIcon from "@mui/icons-material/Pause";
 import ZoomOutIcon from "@mui/icons-material/ZoomOut";
 import ZoomInIcon from "@mui/icons-material/ZoomIn";
 import { Container, Grid, IconButton } from "@material-ui/core";
+import LoopIcon from "@mui/icons-material/Loop";
 
 import Storage from "@aws-amplify/storage";
 
@@ -384,7 +385,10 @@ const Spectrogramview = ({ link, filename, zoom }) => {
       <div className="fileName">
         <p>Current File: {filename}</p>
       </div>
-      <div>Click and drag on the spectrogram to select a region to edit. Then click a resolution below to open the label menu.</div>
+      <div>
+        Click and drag on the spectrogram to select a region to edit. Then click
+        a resolution below to open the label menu.
+      </div>
       <div className="upperControls">
         <ThemeProvider theme={theme}>
           <Grid
@@ -410,10 +414,16 @@ const Spectrogramview = ({ link, filename, zoom }) => {
                 <MuiButton
                   aria-label="pause"
                   size="large"
-                  color="secondary"
+                  color="primary"
                   onClick={handlePause}
                 >
                   <PauseIcon />
+                </MuiButton>
+                <MuiButton aria-label="play" size="large" color="primary">
+                  <LoopIcon />
+                </MuiButton>
+                <MuiButton aria-label="play" size="large" color="primary">
+                  <ZoomInIcon />
                 </MuiButton>
               </ButtonGroup>
             </Grid>
