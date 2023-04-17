@@ -208,6 +208,16 @@ const Spectrogramview = ({ link, filename, zoom }) => {
     return () => wavesurfer.current.destroy();
   }, [link, currZoom]);
 
+  const [isDictionaryOpen, setIsDictionaryOpen] = useState(false);
+
+  const handleOpenDictionary = () => {
+    setIsDictionaryOpen(true);
+  };
+
+  const handleCloseDictionary = () => {
+    setIsDictionaryOpen(false);
+  };
+
   const handlePlayPause = () => {
     setPlay(!playing);
     wavesurfer.current.playPause();
@@ -418,6 +428,33 @@ const Spectrogramview = ({ link, filename, zoom }) => {
                 Export
               </MuiButton>
             </Grid>
+            <Grid item>
+              <MuiButton
+                color="secondary"
+                variant="contained"
+                size="large"
+                onClick={handleOpenDictionary}
+              >
+                Open Dictionary
+                </MuiButton>
+            </Grid>
+          {isDictionaryOpen && (
+            <div
+              style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '300px',
+              height: '300px',
+              backgroundColor: 'white',
+              border: '1px solid black',
+              zIndex: 9999,
+          }}
+        >
+            <button onClick={handleCloseDictionary}>Close Dictionary</button>
+            <p>This is the Dictionary pop-up window</p>
+          </div>
+          )}
           </Grid>
         </ThemeProvider>
       </div>
